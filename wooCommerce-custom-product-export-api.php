@@ -1,8 +1,22 @@
+<?php
 /**
- * Plugin Name: WooCommerce Custom Product Export API
- * Description: Adds a custom REST API endpoint to trigger a WooCommerce product CSV export.
- * Version: 1.0
- * Author: Riaan Knoetze
+ * Plugin Name:       WooCommerce Custom Product Export API
+ * Plugin URI:        https://woocommerce.com
+ * Description:       Adds a custom REST API endpoint to trigger a WooCommerce product CSV export.
+ * Version:           0.1
+ * Author:            Riaan Knoetze
+ * Author URI:        https://woocommerce.com
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain:       woocommerce-custom-product-export-api
+ * Domain Path:       /languages
+ *
+ * Requires at least: 5.8
+ * Tested up to: 6.4
+ * Requires PHP: 7.4
+ *
+ * WC requires at least: 7.4
+ * WC tested up to: 8.8
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
